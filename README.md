@@ -2,7 +2,7 @@
 ```bash
 source install.sh
 ```
-
+git configにlocalでインストールされます。
 
 # commands
 
