@@ -1,0 +1,25 @@
+# gitconfig.example
+[user]
+    name = $(git config user.name)
+    email = $(git config user.email)
+
+[core]
+    editor = vscode
+    autocrlf = input
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    cm = commit
+    df = diff
+    lg = log --oneline --graph --decorate --all
+
+[merge]
+    tool = vimdiff
+
+[pull]
+    rebase = false
+
+[push]
+    default = simple
