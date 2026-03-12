@@ -10,7 +10,7 @@ fi
 
 # ブランチタイプを選択肢として定義
 PS3="番号を入力してください: "
-options=("future" "fix" "search" "test")
+options=("feature" "fix" "search" "test")
 
 echo "ブランチタイプを選択してください:"
 select branch_type in "${options[@]}"; do
